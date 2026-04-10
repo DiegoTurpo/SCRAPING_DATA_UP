@@ -17,9 +17,13 @@ El output contiene un excel donde guarda toda la información url de escuela pro
 ## API
 El proyecto consiste en un análisis exploratorio y comparativo de videojuegos utilizando la API de RAWG, una base de datos online de videojuegos. A lo largo del trabajo, se desarrollan un flujo completo de extracción, procesamiento, análisis y exportación de datos, usando principalmente Python.
 Es de suma importancia utilizar para este proyecto la librería requests para hacer consultas HTTP a la API de RAWG. En cada sección:
+
 Se construyen URLs dinámicas incorporando el api_key.
+
 Se descarga la información en formato JSON.
+
 Se explora la estructura del JSON para identificar las variables relevantes (como count, results, rating, metacritic, etc.).
+
 Este proceso es clave porque simula un entorno real de data extraction desde APIs externas, algo muy usado en data science.
 ### What does the output contain?
 El output contiene un archivo en csv donde están los top 20 mejores juegos de todos los tiempos donde se rescatan la información en columnas de name, rating, metacritic, release_date, main_genre para cada uno de los juegos.
